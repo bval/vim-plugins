@@ -8,9 +8,13 @@ running, do the following:
 $ git clone https://github.com/bval/vim-plugins ~/.janus
 $ git submodule init && git submodule update
 $ cd ~/.janus
-$ sudo gem install bundler
-$ sudo bundle install
+$ gem install bundler
+$ bundle install
 ```
+
+This assumes you have a Ruby configuration that does not require sudo to
+install global gems. I do. If you want to use this pattern, look into
+rvm or rbenv or equivalent.
 
 ### Contributing
 
