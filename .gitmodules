@@ -1,0 +1,3 @@
+[submodule "hammer.vim"]
+	path = hammer.vim
+	url = https://github.com/wikimatze/hammer.vim
